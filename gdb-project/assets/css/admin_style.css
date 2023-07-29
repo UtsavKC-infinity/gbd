@@ -1,0 +1,77 @@
+body {
+  size: 62.5%;
+}
+
+h1 {
+  text-align: center;
+  background-color: paleturquoise;
+}
+
+.insert-form {
+  /* text-align: center; */
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  height: 100vh;
+  width: 100%;
+  background: rgb(131, 58, 180);
+  background: linear-gradient(
+    90deg,
+    rgba(131, 58, 180, 1) 0%,
+    rgba(253, 29, 29, 1) 50%,
+    rgba(252, 176, 69, 1) 100%
+  );
+}
+.form-group {
+  padding: 0.5rem;
+}
+.insert-btn {
+  padding: 0.5 rem;
+  margin-left: 0.6rem;
+}
+
+th {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.index_image {
+  width: 50%;
+  height: 50vh;
+  object-fit: cover;
+}
+
+.product_div {
+  margin: 10% 25%;
+  border: 1px solid darkred;
+  text-align: center;
+  width: 50%;
+  background-color: rgb(218, 50, 70);
+}
+
+.index_button {
+  display: flex;
+  margin-top: 6rem;
+}
+.index_button a {
+  margin: 1rem;
+}
+
+.edit_button :hover {
+  color: green;
+}
+
+td {
+  border: none;
+}
+
+strong {
+  font-size: 2rem;
+}
+#delete-btn {
+  color: black;
+}
+#delete-btn:hover {
+  cursor: pointer;
+  color: red;
+}
